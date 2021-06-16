@@ -112,3 +112,48 @@
   position: relative;
   height: 600px;
 }
+.description-text{
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  font-size: 44px;
+  font-weight: 600;
+}
+.description-login__start{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 300px;
+  padding-left: 171px;
+}
+.description-text__login{
+  color: #252B42;
+}
+.description-login__img{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 600px;
+  width: 302px;
+}
+.description-text__account{
+  padding-top: 200px;
+  padding-bottom: 25px;
+  width: 700;
+  color: #FA4A0C;
+  font-size: 24px;
+}
+.description-text__faststart{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  color: #252B42;
+}
+.description-text__instruction{
+  width: 500;
+  font-size: 24px;
+  color: #737373;
+  line-height: 38px;
+  padding-bottom: 154px;
+}
