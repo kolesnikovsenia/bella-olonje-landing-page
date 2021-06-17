@@ -30,7 +30,11 @@
   display: flex;
   align-items: center;
   font-size: 16px;
+  width: 600;
   margin-right: 60px;
+}
+.topbar-menu__home{
+  color: #FA4A0C;
 }
 .topbar-menu__item:not(:last-child) {
   margin-right: 114px;
@@ -235,4 +239,67 @@
   color: #737373;
   line-height: 38px;
   padding-bottom: 154px;
+}
+.section{
+  background-image: url('../images/Rectangle\ 47.png');
+  background-repeat: no-repeat;
+  height: 516px;
+  background-size: cover;
+}
+.section-top{
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 47px;
+  color: #FFFFFF;
+}
+.section-row{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.section-buttons{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 161px;
+  padding-top:40px;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+}
+.footer-logo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 246px;
+  padding-right: 250px;
+}
+.footer-icons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 100px;
+  height: 33px;
+  width: 33px;
+}
+.footer-icons__items{
+  display: flex;
+  justify-content: center;
+  padding-right: 33px;
+}
+.footer-text{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-left: 300px;
+  font-size: 12px;
+  width: 700;
+  color: #5C5C5C;
 }
