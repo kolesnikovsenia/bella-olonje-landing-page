@@ -142,26 +142,26 @@
   font-size: 44px;
   font-weight: 600;
 }
-.description-section__row {
+.description-section__columns {
   display: flex;
   justify-content: space-between;
   padding-bottom: 54px;
 }
-.description-section__row.reverse {
+.description-section__columns.reverse {
   flex-direction: row-reverse;
 }
-.description-section__row .description-section__column-img {
+.description-section__column-img {
   display: flex;
   flex: 1 0 44%;
 }
-.description-section__row .description-section__column-info {
+.description-section__columns .description-section__column-info {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   flex: 1 0 56%;
 }
-.description-section__row.reverse .description-section__column-img {
+.description-section__columns.reverse .description-section__column-img {
   justify-content: flex-end;
 }
 .description-section__benefit-text {
@@ -181,21 +181,29 @@
   line-height: 38px;
 }
 
-.section {
+.section-benefits {
   background-image: url('../images/Rectangle\ 47.png');
   background-repeat: no-repeat;
   background-size: cover;
+  max-height: 516px;
 }
-.section-top {
+.section-benefit__text{
   display: flex;
   justify-content: center;
-  padding-top: 150px;
+  flex-direction: column;
+  align-items: center;
+  height: 516px;
+  width: 100%;
+}
+.section-benefit__dwn {
+  display: flex;
+  justify-content: center;
   padding-bottom: 10px;
   font-weight: 700;
   font-size: 47px;
   color: #ffffff;
 }
-.section-row {
+.section-benefit__description {
   display: flex;
   justify-content: center;
   padding-top: 20px;
@@ -207,36 +215,35 @@
 .section-buttons {
   display: flex;
   justify-content: center;
-  padding-bottom: 161px;
   padding-top: 40px;
 }
 .footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .footer-logo {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  padding-right: 250px;
+  align-items: flex-start;
+  flex-direction: row;
   padding-bottom: 27px;
+  width: 206px;
 }
 .footer-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  padding-top: 100px;
-  height: 33px;
-  width: 33px;
+  height: 180px;
+  width: 100%;
 }
-.footer-icons__items {
-  display: flex;
-  justify-content: center;
-  padding-right: 33px;
+.footer-icon__social {
+  display: inherit;
+  justify-content: space-between;
+  margin: 0px 15px;
 }
-.footer-text {
-  padding-left: 300px;
+.footer-link {
   font-size: 12px;
   font-weight: 700;
   color: #5c5c5c;
+  width: 286px;
 }
